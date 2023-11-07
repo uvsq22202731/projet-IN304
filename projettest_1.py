@@ -142,8 +142,6 @@ def topK_mentions(k) :
 
 
 
-
-
 data = []
 
 with open('aitweets.json') as f:
