@@ -101,16 +101,16 @@ def liste_mentions(tweet) :  ## On prend le tweet en argument
 
 def analys_feeling(tweet) :
     """Fonction qui permet d'analyser les sentiments d'un tweet"""
-    sentiment = ""
-    tweet_blob = TextBlob(tweet)
-    polarity = tweet_blob.sentiment.polarity
-    if round(polarity,2) > (0.00) :
-        sentiment += "+"
-    elif round(polarity,2) < (0.00) : 
-        sentiment += "-"
+    sentiment = ""  ## On créer la variable sentiment contenant une chaîne de caractère vide
+    tweet_blob = TextBlob(tweet)  ## tweet_blob contient le tweet avec la class textblob appliquée
+    polarity = tweet_blob.sentiment.polarity  ## Polarity contient le tweet analysé par textblob avec sa polarité
+    if round(polarity,2) > (0.00) :  ## si l'arrondi de la polarité est au dessus de 0
+        sentiment += "+"  ## On met le sentiment du tweet à +
+    elif round(polarity,2) < (0.00) :  ## si l'arrondi de la polarité est en dessous de 0
+        sentiment += "-"  ## On met le sentiment du tweet à -
     else :
-        sentiment += "0"
-    return sentiment
+        sentiment += "0"  ## Si la polarité est neutre on met le sentiment du tweet à 0
+    return sentiment  ## On renvoie le sentiment du tweet
 
 
 
@@ -202,3 +202,11 @@ k = int(input("Donnes moi un nombre k afin que je t'affiche le top k des mention
 topK_mentions(k)
 
 '''
+
+
+## Sentiments de tous les tweets
+
+liste_sentiments = []
+for i in range(len(data)) :
+    liste_sentiments.append(analys_feeling(data[i]["TweetText"]))
+#print(liste_sentiments)
