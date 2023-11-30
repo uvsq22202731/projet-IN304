@@ -6,6 +6,7 @@ from gensim import corpora, models
 from gensim.models import LdaModel
 import Publications_par_Topics
 def topics(text, num_topics=1):
+    """Renvoie les topics de chaque tweet"""
     stop_words = set(stopwords.words('english'))
     words = word_tokenize(text)
     filtered_words = [word.lower() for word in words if word.isalnum() and word.lower() not in stop_words]
@@ -33,6 +34,7 @@ def topics(text, num_topics=1):
 
 
 def get_top_k_topics(all_results, k):
+    """Renvoie les top K topics de tous les tweets"""
     topic_counts = Publications_par_Topics.nb_publications_par_topic(all_results)
 
     # Trier les topics par ordre décroissant du nombre de publications

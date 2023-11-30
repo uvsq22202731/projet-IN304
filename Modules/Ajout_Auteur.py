@@ -2,6 +2,7 @@ import json
 import Suppression_Caracteres_Speciaux
 import random
 def verification_structure(fichier):
+    """Ajoute les différent auteur à notre fichier atterissage.json"""
     with open('atterissage.json','w'):  #  On ouvre notre fichier zone d'atterissage
         pass
     tweet_keys = ["id", "AuthorLocation", "CreatedAt", "RetweetCount",  #  On créer une liste avec les différentes clés de notre fichier json

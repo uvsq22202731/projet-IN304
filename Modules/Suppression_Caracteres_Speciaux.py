@@ -1,5 +1,4 @@
 import re
-
 def del_caractere_spe(txt):
     """Supprime les caractères spéciaux, type émojis"""
     new_text = re.sub(r'[^a-zA-Z0-9\s@#(){}[]', '', txt)

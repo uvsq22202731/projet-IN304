@@ -1,8 +1,6 @@
 def Publications_par_Utilisateurs(data):
     """Compte le nombre de publications par utilisateur."""
-
     publications_par_utilisateur = {}
-
     for i in data:
         utilisateur = i["Utilisateur"]
         if utilisateur in publications_par_utilisateur:

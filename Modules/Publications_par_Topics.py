@@ -1,6 +1,6 @@
 def nb_publications_par_topic(all_results):
+    """Renvoie le nombre de publications par topics"""
     topic_counts = {}
-
     for result in all_results:
         if result:
             best_topic = result[0]
