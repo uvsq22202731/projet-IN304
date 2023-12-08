@@ -1,1 +1,16 @@
-
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# InPoDa : Plateforme d'Analyse de Données Twitter\n",
+    "\n",
+    "---\n",
+    "\n",
+    "Bienvenue sur InPoDa, une plateforme virtuelle développée en Python avec l'objectif d'analyser et de traiter des données provenant de tweets. \n",
+    "Cette plateforme offre une suite d'opérations puissantes pour explorer et comprendre les tendances, les sentiments et les informations clés présents dans les flux de tweets.\n",
+    "\n",
+    "InPoDa est conçu pour être flexible, facile à utiliser et extensible, offrant une expérience complète pour l'analyse et le traitement des données Twitter.\n"
+   ]
+  },
