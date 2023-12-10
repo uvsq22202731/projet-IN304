@@ -1,7 +1,7 @@
 # projet-IN304
 ## Bibliothèques utilisées dans le Projet Inpoda
 
-   ###Importation des bibliothèques :
+   Importation des bibliothèques :
         - `json` : pour travailler avec des données au format JSON.
         - `re` : pour effectuer des opérations de recherche de motifs (regex).
         - `pandas` : pour manipuler et analyser des données tabulaires avec des DataFrames.
