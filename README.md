@@ -12,3 +12,6 @@
    <br />
    N'oubliez pas d'installer les bibliothèques nécessaires en utilisant `pip install [nom de la bibliothèque]` si elles ne sont pas déjà installées.<br /><br />
 Pour lancer InPoDa il faut lancer le fichier InPoDa dans le dossier modules
+
+<br />
+Référence :
