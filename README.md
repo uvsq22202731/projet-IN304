@@ -17,4 +17,6 @@ Pour lancer InPoDa il faut lancer le fichier InPoDa dans le dossier modules
 Référence :
 Documentation sur Regex : https://docs.python.org/3/howto/regex.html <br />
 Documentation sur NLTK : https://www.nltk.org + https://datascienceplus.com/topic-modeling-in-python-with-nltk-and-gensim/ <br />
-Documentation sur TextBlob : https://textblob.readthedocs.io/en/dev/ <br />
+Documentation sur TextBlob : - https://textblob.readthedocs.io/en/dev/ <br />
+                             - https://stackoverflow.com/questions/51209514/how-does-textblob-calculate-sentiment-polarity-how-can-i-calculate-a-value-for<br />
+
