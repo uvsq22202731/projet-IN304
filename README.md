@@ -15,6 +15,6 @@ Pour lancer InPoDa il faut lancer le fichier InPoDa dans le dossier modules
 
 <br />
 Référence :
-Documentation sur Regex : https://docs.python.org/3/howto/regex.html
-Documentation sur NLTK : https://www.nltk.org + https://datascienceplus.com/topic-modeling-in-python-with-nltk-and-gensim/
-Documentation sur TextBlob : https://textblob.readthedocs.io/en/dev/
+Documentation sur Regex : https://docs.python.org/3/howto/regex.html <br />
+Documentation sur NLTK : https://www.nltk.org + https://datascienceplus.com/topic-modeling-in-python-with-nltk-and-gensim/ <br />
+Documentation sur TextBlob : https://textblob.readthedocs.io/en/dev/ <br />
