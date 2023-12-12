@@ -1,7 +1,7 @@
 from textblob import TextBlob
 
 def analys_feeling(tweet) :
-    """Analyse les sentiments de la publications"""
+    """Analyse les sentiments de la publications grâce au module textblob"""
     sentiment = ""
     tweet_blob = TextBlob(tweet)
     polarity = tweet_blob.sentiment.polarity
@@ -11,4 +11,4 @@ def analys_feeling(tweet) :
         sentiment += "-"
     else :
         sentiment += "0"
-    return sentiment
+    return sentiment    # Renvoie un sentiment -,0,+ en fonction des sentiments de la publication
