@@ -1,4 +1,4 @@
-# projet-IN304
+# projet-IN304, Kelly Mbemba | César Charbey
 ## Bibliothèques utilisées dans le Projet Inpoda
 <br /> Importation des bibliothèques : <br />
      - `json` : pour travailler avec des données au format JSON. <br />
